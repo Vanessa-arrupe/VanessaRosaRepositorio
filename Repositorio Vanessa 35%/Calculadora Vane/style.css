@@ -1,0 +1,50 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  .contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .calculadora {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+ 
+  input{
+    width: 50px;
+    height: 30px;
+    font-size: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 100px;
+    margin: 10px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  button {
+    width: 40px;
+    height: 30px;
+    font-size: 15px;
+    padding: 10px;
+    border: none;
+    border-radius: 100px;
+    background-color: #e97c22;
+    color: white;
+  }
+  
+  #salida { /* Se usa "#* para seleccionar un id (investigué en: https://openwebinars.net/blog/que-es-css/)*/
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    margin: 20px;
+  }
+  

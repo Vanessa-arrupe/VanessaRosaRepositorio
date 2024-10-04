@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Promedios</title>
+</head>
+<body>
+    <h1>Ingrese las notas del período IV</h1>
+    <h2>Calificación primer 35%</h2>
+    <input type="text" id="cali1">
+    <h2>Calificación segundo 35%</h2>
+    <input type="text" id="cali2">
+    <h2>Calificación examen</h2>
+    <input type="text" id="cali3">
+    <button onclick="prom()">Promediar</button>
+    <!-- <p id="salida">El promedio es:</p> span para excluir contenido de la línea de texto -->
+    <p>El promedio es: <span id="salida"></span></p>
+    <p id="frase"></p>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
+
+<!--boleano, cualquier número diferente de cero es verdadero, incluso los negativos, el cero es el único falso. El texto también es verdadero. El espacio es falso. También toma en cuenta el alfabeto. Los dos iguales es una igualdad, pregunta si son iguales o no, un solo igual es para asignar. Con 3 iguales es para sabes si son idénticos "!=" para saber si son diferentes. "!==" ¿son completamente diferentes? (Ejemplo true !== 1; true, porque uno es booleano y otro es binario, so nada que ver)-->
